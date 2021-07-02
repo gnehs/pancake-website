@@ -38,7 +38,7 @@ export default {
     display: grid
     gap: 24px
     grid-auto-rows: auto
-    grid-template-columns: repeat(2,1fr)
+    grid-template-columns: repeat(3,1fr)
     margin: 24px 0
     .photo
         box-shadow: 0.1em 0.1em rgb(255 234 185), 0.2em 0.2em rgb(225 100 40)
@@ -89,6 +89,9 @@ export default {
                 transform: translate(.2em,.2em)
                 box-shadow: 0 0 rgb(255 234 185), 0 0 rgb(225 100 40)
 
+@media screen and (max-width: 1024px)
+    .photos
+        grid-template-columns: repeat(2,1fr)
 @media screen and (max-width: 768px)
     .photos
         gap: 24px 12px
