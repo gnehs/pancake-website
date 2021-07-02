@@ -62,8 +62,8 @@ export default {
             border-radius: 4px
             padding: 6px 12px
             text-decoration: none
-            text-align: center
             color: #af4f20
+            text-align: center
             background-color: #fff
             cursor: pointer
             &:hover
@@ -80,6 +80,8 @@ export default {
             font-weight: bold
             cursor: pointer
             user-select: none
+            text-decoration: none
+            color: #af4f20
             &:hover
                 background-color: rgb(225 100 40)
                 color: #fff

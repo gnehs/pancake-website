@@ -1,7 +1,7 @@
 const title = "蓬蓬鬆餅"
-const description = "回過神才發現，思考勝勝可愛的存在意義，已讓我廢寢忘食。深入的探討勝勝可愛，是釐清一切的關鍵。我想，把勝勝可愛的意義想清楚，對各位來說並不是一件壞事。面對如此難題，我們必須設想周全。培根告訴我們，重複言說多半是一種時間上的損失。這不禁令我重新仔細的思考，勝勝好可愛喔。"
-const url = "https://cute.gnehs.net/"
-const img = "https://cute.gnehs.net/cute.png"
+const description = "蓬鬆軟綿的蓬蓬鬆餅，一口咬下軟呼呼，世人都愛的美味鬆餅。"
+const url = "https://pancake.gnehs.net/"
+const img = "https://pancake.gnehs.net/img/pancake-bg.jpg"
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -35,7 +35,6 @@ export default {
     ],
     link: [
       { rel: 'icon', href: 'https://cute.gnehs.net/sticker/sticker.jpg' },
-      { rel: 'stylesheet', href: 'https://gnehs.github.io/ChatUI/css/ChatUI.css' },
       // Google fonts
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },

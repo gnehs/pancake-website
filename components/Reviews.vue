@@ -56,6 +56,8 @@ export default {
       font-weight: bold
       cursor: pointer
       user-select: none
+      text-decoration: none
+      color: #af4f20
       &:hover
         background-color: rgb(225 100 40)
         color: #fff
