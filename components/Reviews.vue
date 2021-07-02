@@ -17,7 +17,7 @@
         </div>
         <a
           class="user new"
-          href="https://github.com/gnehs/pancake.gnehs.net/blob/master/add-item.md"
+          href="https://github.com/gnehs/pancake.gnehs.net/blob/master/CONTRIBUTING.md"
           target="_blank"
         >+ 撰寫評鑑</a>
       </div>

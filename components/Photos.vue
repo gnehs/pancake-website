@@ -17,7 +17,7 @@
         </div>
         <a
           class="photo new"
-          href="https://github.com/gnehs/pancake.gnehs.net/blob/master/add-item.md"
+          href="https://github.com/gnehs/pancake.gnehs.net/blob/master/CONTRIBUTING.md"
           target="_blank"
         >+ 新增圖片</a>
       </div>
