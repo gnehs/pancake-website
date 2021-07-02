@@ -72,9 +72,9 @@ export default {
         font-weight: bold
         flex: 1
         font-size: 18px
-        .stars
-          color: #ccc
-          display: flex
+      .stars
+        color: #ccc
+        display: flex
 
     .avatar
       width: 40px
