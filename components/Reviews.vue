@@ -15,7 +15,11 @@
           <div class="message">{{msg}}</div>
           <img class="avatar" :src="photo" />
         </div>
-        <a class="user new">+ 撰寫評鑑</a>
+        <a
+          class="user new"
+          href="https://github.com/gnehs/pancake.gnehs.net/blob/master/add-item.md"
+          target="_blank"
+        >+ 撰寫評鑑</a>
       </div>
     </div>
   </div>
