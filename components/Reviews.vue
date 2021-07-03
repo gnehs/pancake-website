@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="container">
-      <h1 class="emoji">📝</h1>
+      <h1 class="emoji">
+        <fa :icon="['fas','pencil-alt']" />
+      </h1>
       <h1>食客評鑑</h1>
       <div class="users">
         <div class="user" v-for="({name,photo,msg,stars},i) of items" :key="i">
@@ -40,8 +42,8 @@ export default {
   grid-template-columns: repeat(4,1fr)
   margin: 24px 0
   .user
-    box-shadow: 0.1em 0.1em rgb(255 234 185), 0.2em 0.2em rgb(225 100 40)
-    border: 2px solid rgb(225 100 40)
+    box-shadow: 0.1em 0.1em rgb(255 234 185), 0.2em 0.2em rgb(225, 100, 40)
+    border: 2px solid rgb(225, 100, 40)
     width: 100%
     background-color: #fff
     padding: 12px
@@ -59,11 +61,11 @@ export default {
       text-decoration: none
       color: #af4f20
       &:hover
-        background-color: rgb(225 100 40)
+        background-color: rgb(225, 100, 40)
         color: #fff
       &:active
         transform: translate(.2em,.2em)
-        box-shadow: 0 0 rgb(255 234 185), 0 0 rgb(225 100 40)
+        box-shadow: 0 0 rgb(255 234 185), 0 0 rgb(225, 100, 40)
     .header
       display: flex
       align-items: center
@@ -83,8 +85,8 @@ export default {
       border-radius: 100em
       margin-right: 4px
       position: absolute
-      box-shadow: 0.1em 0.1em rgb(255 234 185), 0.2em 0.2em rgb(225 100 40)
-      border: 2px solid rgb(225 100 40)
+      box-shadow: 0.1em 0.1em rgb(255 234 185), 0.2em 0.2em rgb(225, 100, 40)
+      border: 2px solid rgb(225, 100, 40)
       right: 4px
       bottom: -8px
 

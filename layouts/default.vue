@@ -52,12 +52,13 @@ export default {
   }
   h1.emoji {
     --size: 72px;
-    font-size: 48px;
+    font-size: 36px;
     background-color: antiquewhite;
     height: var(--size);
     width: var(--size);
     border-radius: 100em;
     line-height: var(--size);
     margin: 0 auto;
+    color: #af4f20;
   }
 </style>

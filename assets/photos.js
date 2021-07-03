@@ -3,6 +3,7 @@ export default [
         src: "/img/pancake-bg.jpg",
         title: "草莓蓬蓬鬆餅",
         location: "Woosa パンケーキ 屋莎鬆餅屋 信義A8",
+        user: "可愛勝勝",
         url: {
             icon: ["fab", "instagram"],
             title: "Instagram",
@@ -13,6 +14,7 @@ export default [
         src: "/img/_DSC2741.JPG",
         title: "檸檬蓬蓬鬆餅",
         location: "Woosa パンケーキ 屋莎鬆餅屋 信義A8",
+        user: "可愛勝勝",
         url: {
             icon: ["fab", "instagram"],
             title: "Instagram",
@@ -23,6 +25,7 @@ export default [
         src: "/img/_DSC2758.JPG",
         title: "巧克力蓬蓬鬆餅",
         location: "Woosa パンケーキ 屋莎鬆餅屋 信義A8",
+        user: "可愛勝勝",
         url: {
             icon: ["fab", "instagram"],
             title: "Instagram",
@@ -33,6 +36,7 @@ export default [
         src: "/img/_DSC3620.JPG",
         title: "蒙布朗蓬蓬鬆餅",
         location: "Woosa パンケーキ 屋莎鬆餅屋 京站",
+        user: "可愛勝勝",
         url: {
             icon: ["fab", "instagram"],
             title: "Instagram",
@@ -43,6 +47,7 @@ export default [
         src: "/img/_DSC3608.JPG",
         title: "紅寶石櫻花鬆餅",
         location: "Woosa パンケーキ 屋莎鬆餅屋 京站",
+        user: "可愛勝勝",
         url: {
             icon: ["fab", "instagram"],
             title: "Instagram",
