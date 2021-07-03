@@ -52,8 +52,8 @@ export default {
   margin-bottom: 16px
   &.hide-mouse
     cursor: none
-  &>*
-    cursor: none
+    &>*
+      cursor: none
   &:active
     .cleanbg
       font-size: 56px

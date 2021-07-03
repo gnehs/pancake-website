@@ -35,11 +35,11 @@ export default {
     ],
     link: [
       { rel: 'icon', href: 'https://cute.gnehs.net/sticker/sticker.jpg' },
-      // Google fonts
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap' },
-      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       // https://shogo82148.github.io/genjyuugothic-subsets/
       { rel: 'stylesheet', href: 'https://shogo82148.github.io/genjyuugothic-subsets/GenJyuuGothic-P-Heavy/GenJyuuGothic-P-Heavy.css' },
+      // https://fonts.google.com/specimen/Noto+Sans+TC
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap' },
     ]
   },
 

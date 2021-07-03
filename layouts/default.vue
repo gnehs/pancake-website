@@ -2,6 +2,7 @@
   <div>
     <Nuxt />
     <footer>
+      🥞 |
       Created by
       <a href="https://gnehs.net/" target="_blank">gnehs</a> | Powered by
       Nuxt.js
@@ -28,11 +29,11 @@ export default {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    font-family: "Noto Sans TC", sans-serif;
   }
   footer {
-    opacity: 0.5;
+    opacity: 0.75;
     font-size: 0.7em;
-    font-family: "Raleway", sans-serif;
     text-align: center;
     border-radius: 8px;
     margin-top: 32px;
