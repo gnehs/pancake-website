@@ -77,8 +77,12 @@ export default {
           icons: ['fab']
         },
       ]
-    }]
+    }],
+    '@nuxtjs/google-gtag',
   ],
+  'google-gtag': {
+    id: 'G-PLF79K98B3',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
