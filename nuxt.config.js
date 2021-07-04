@@ -78,6 +78,9 @@ export default {
         },
       ]
     }],
+    ['nuxt-cloudflare-analytics', {
+      token: 'de06dd03232047578acc3909cc29e8cc',
+    }],
     '@nuxtjs/google-gtag',
   ],
   'google-gtag': {

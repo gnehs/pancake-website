@@ -16,6 +16,7 @@
     "@splidejs/vue-splide": "^0.3.5",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
+    "nuxt-cloudflare-analytics": "^0.1.5",
     "nuxt-fontawesome": "^0.4.0",
     "vue-rellax": "^0.2.0"
   },
