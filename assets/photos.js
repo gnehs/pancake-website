@@ -53,5 +53,27 @@ export default [
             title: "Instagram",
             link: "https://www.instagram.com/p/CNemBUuF_nc/"
         }
+    },
+    {
+        src: "/img/_DSC5192.jpg",
+        title: "芝麻蓬蓬鬆餅",
+        location: "Woosa パンケーキ 屋莎鬆餅屋 京站",
+        user: "可愛勝勝",
+        url: {
+            icon: ["fab", "instagram"],
+            title: "Instagram",
+            link: "https://www.instagram.com/p/CUIGPRSF3II/"
+        }
+    },
+    {
+        src: "/img/_DSC5290.jpg",
+        title: "原味蓬蓬鬆餅",
+        location: "LeTAO 小樽洋菓子舖 松菸店",
+        user: "可愛勝勝",
+        url: {
+            icon: ["fab", "instagram"],
+            title: "Instagram",
+            link: "https://www.instagram.com/p/CUIGSGrF3fX/"
+        }
     }
 ]
