@@ -7,6 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "vue": "^3.2.16"
   },
   "devDependencies": {
