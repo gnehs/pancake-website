@@ -55,8 +55,8 @@ export default {
 	background-image: url('/img/pancake-bg.jpg')
 	background-size: cover
 	background-position: center
-	background-attachment: fixed
 	height: 100vh
+	height: 100svh
 	display: flex
 	flex-direction: column
 	justify-content: flex-end
