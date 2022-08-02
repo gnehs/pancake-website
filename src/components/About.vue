@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <div class="warning">
+      <p>⚠️ 您的瀏覽器不支援蓬蓬鬆餅網站之部分內容，可能會造成網頁顯示不正常或部分功能異常。</p>
+    </div>
     <h1>關於蓬蓬鬆餅</h1>
     <div id="about">
       <div class="about-box">
@@ -25,6 +28,15 @@ export default {}
   margin: 64px auto
   h1
     margin-bottom: 16px
+.warning
+  margin: 8px auto
+  padding: 8px 24px
+  border-radius: 8px
+  border: 1px solid #f44336
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.1)
+@supports selector(:has(a))
+  .warning
+    display: none
 #about
   display: grid
   grid-template-columns: 1fr 1fr
