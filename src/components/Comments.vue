@@ -35,6 +35,9 @@ import items from '../assets/reviews.js'
 		@media screen and (max-width: 768px)
 			gap: 24px 12px
 			grid-template-columns: repeat(2,1fr)
+		@media screen and (max-width: 486px)
+			gap: 24px 12px
+			grid-template-columns: 1fr
 		.user
 			box-shadow: 0 5px 20px 0 rgba(0,0,0,.1)
 			width: 100%
