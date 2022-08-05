@@ -6,7 +6,7 @@
         <div class="credit">Created by <a href="https://gnehs.net/" target="_blank">gnehs</a> | Made with 🥞 in Taiwan</div>
       </div>
       <div class="social">
-        <a href="https://github.com/gnehs/pancake.gnehs.net" target="_blank">
+        <a href="https://github.com/gnehs/pancake.tw" target="_blank">
           <i class="bx bxl-github"></i>
         </a>
       </div>
