@@ -2,7 +2,7 @@
   <div class="container">
     <div id="badge">
       <h1>Pancake badge</h1>
-      <p>Bring the badge to your repo today!</p>
+      <p>Bring the pancake to your repo today!</p>
       <div class="badge-items">
         <img class="badge-item" v-for="badge of badges" :src="badge" :key="badge" />
       </div>
@@ -40,7 +40,7 @@ export default {
   justify-content: center
   border-radius: 8px
   box-shadow: 0 5px 20px 0 rgba(0,0,0,.1)
-  background-color: rgba(0,0,0,.05)
+  background-color: rgba(0,0,0,.025)
   h1
     text-align: center
     & + p
