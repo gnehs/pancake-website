@@ -2,7 +2,7 @@
   <div class="container">
     <div id="badge">
       <h1>Pancake badge</h1>
-      <p>Bring the pancake to your repo today!</p>
+      <p>Bring the badge to your repo today!</p>
       <div class="badge-items">
         <img class="badge-item" v-for="badge of badges" :src="badge" :key="badge" />
       </div>
