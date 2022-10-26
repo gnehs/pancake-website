@@ -4,6 +4,7 @@
 import Intro from './components/Intro.vue'
 import About from './components/About.vue'
 import Images from './components/Images.vue'
+import Badge from './components/Badge.vue'
 import Comments from './components/Comments.vue'
 import Footer from './components/Footer.vue'
 </script>
@@ -13,6 +14,7 @@ import Footer from './components/Footer.vue'
   <About />
   <Images />
   <Comments />
+  <Badge />
   <Footer />
 </template>
- 
+
