@@ -18,7 +18,6 @@
 #footer
   padding: 20px 0
   background-color: #f5f5f5
-  margin-top: 64px
   .container
     display: flex
     justify-content: space-between

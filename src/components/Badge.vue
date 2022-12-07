@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div id="badge">
-      <h1>Pancake badge</h1>
+      <h1>✨ Pancake badge ✨</h1>
       <p>Bring the pancake to your repo today!</p>
       <div class="badge-items">
         <img class="badge-item" v-for="badge of badges" :src="badge" :key="badge" />
@@ -32,17 +32,18 @@ export default {
 #badge
   padding: 24px 0
   margin: 0 auto
-  margin-top: 32px
-  border-radius: 16px
+  margin-top: 48px
+  border-radius: 8px
   display: flex
   flex-direction: column
   align-items: center
   justify-content: center
-  border-radius: 8px
-  box-shadow: 0 5px 20px 0 rgba(0,0,0,.1)
-  background-color: rgba(0,0,0,.025)
+  border-radius: 8px 8px 0 0
+  border: 2px solid rgba(0,0,0,.1)
+  border-bottom: none
   h1
     text-align: center
+    font-family: 'Pacifico', cursive
     & + p
       text-align: center
       margin-bottom: 24px
