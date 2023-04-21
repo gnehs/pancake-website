@@ -89,7 +89,7 @@ export default {
       margin: 8px
       cursor: pointer
       transition: all 0.2s ease-in-out
-      filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.1))
+      filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.2))
       &:hover
         transform: scale(1.1)
     &:has(.badge-item:hover) .badge-item:not(:hover)
@@ -110,6 +110,7 @@ export default {
     border-radius: 100em
     margin-top: 32px
     transition: all 0.2s ease-in-out
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.1)
     &:hover
       background-color: #000
     &:active
