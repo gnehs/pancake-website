@@ -119,5 +119,27 @@ export default [
             title: "Instagram",
             link: "https://www.instagram.com/p/CpF4Z4jJeLy/"
         }
+    },
+    {
+        src: "/img/0440.jpg",
+        title: "香草舒芙蕾 巧克力醬",
+        location: "星乃珈琲店 信義新天地 A8",
+        user: "可愛勝勝",
+        url: {
+            icon: ["bxl-instagram"],
+            title: "Instagram",
+            link: "https://instagram.com/p/CrTMzlIL1Ae/"
+        }
+    },
+    {
+        src: "/img/0442.jpg",
+        title: "香草舒芙蕾 卡士達醬",
+        location: "星乃珈琲店 信義新天地 A8",
+        user: "可愛勝勝",
+        url: {
+            icon: ["bxl-instagram"],
+            title: "Instagram",
+            link: "https://instagram.com/p/CrTMvigLigF/"
+        }
     }
 ]
