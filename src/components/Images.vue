@@ -1,31 +1,31 @@
 <template>
-	<div id="images" class="container">
-		<h1>珍貴的野生蓬蓬鬆餅</h1>
-		<div class="items">
-			<div class="item" v-for="({ src, location, title, url, user }, i) of items" :key="i">
-				<div class="image">
-					<img :src="src" />
-				</div>
-				<div class="info">
-					<div class="title">{{ title }}</div>
-					<div class="location">
-						<i class="bx bx-map"></i>
-						<span>{{ location }}</span>
-					</div>
-					<div class="interactions">
-						<div class="user">
-							<i class="bx bx-camera"></i>
-							<span>{{ user }}</span>
-						</div>
-						<div class="spacer" />
-						<a :href="url.link" target="_blank" class="link">
-							<i class="bx" :class="url.icon"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div id="images" class="container">
+    <h1>珍貴的野生蓬蓬鬆餅</h1>
+    <div class="items">
+      <div class="item" v-for="({ src, location, title, url, user }, i) of items" :key="i">
+        <div class="image">
+          <img :src="src" />
+        </div>
+        <div class="info">
+          <div class="title">{{ title }}</div>
+          <div class="location">
+            <i class="bx bx-map"></i>
+            <span>{{ location }}</span>
+          </div>
+          <div class="interactions">
+            <div class="user">
+              <i class="bx bx-camera"></i>
+              <span>{{ user }}</span>
+            </div>
+            <div class="spacer" />
+            <a :href="url.link" target="_blank" class="link">
+              <i class="bx" :class="url.icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
@@ -83,7 +83,7 @@ import items from '../assets/photos.js'
 					&:hover
 						transform: translateY(-2px)
 						box-shadow: 0 2px 2px 0 rgba(0,0,0,.2)
-					&[href^="https://www.instagram.com"]
+					&[href*="instagram.com"]
 						background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)
 						color: #fff
 				.user
